@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to Python</span>
   <span class="subhead">Setup</span>
 </h1>
 
@@ -13,11 +13,11 @@ Open your Terminal application and navigate to your <code class="filepath">~/cod
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+Make a new directory called <code class="filepath">Intro to Python</code>, then enter this directory:
 
 ```bash
-mkdir tktk-module-name
-cd tktk-module-name
+mkdir Intro to Python
+cd Intro to Python
 ```
 
 Open the contents of the directory in VS Code:
