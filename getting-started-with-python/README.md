@@ -3,7 +3,7 @@
   <span class="subhead">Getting Started with Python</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will learn about the python ecosystem and how to install and run python code. 
+**Learning objective:** By the end of this lesson, students will learn about the python ecosystem and how to install and run python code.
 
 ## What is Python?
 
@@ -62,4 +62,3 @@ To create a Python script, open a text editor such as VS Code, write your Python
 To run a Python script, open a terminal, navigate to the directory where the script is located, and type `python script.py`, replacing `script.py` with the actual name of your script file.
 
 Python will execute the code in the script from top to bottom, and any output or results will be displayed in the terminal.
-
