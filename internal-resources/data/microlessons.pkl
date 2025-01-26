@@ -9,23 +9,30 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+gettingStartedWithPython = new Template.Microlesson {
+  friendlyName = "Getting Started with Python"
+  dirName = "getting-started-with-python"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+dataTypesAndVariables = new Template.Microlesson {
+  friendlyName = "Data Types and Variables"
+  dirName = "data-types-and-variables"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+operatorsInputsAndOutputs = new Template.Microlesson {
+  friendlyName = "Operators, Inputs and Outputs"
+  dirName = "operators-inputs-and-outputs"
+  type = "Content"
+  videoUrl = ""
+}
+
+branchingAndLoops = new Template.Microlesson {
+  friendlyName = "Branching and Loops"
+  dirName = "branching-and-loops"
   type = "Content"
   videoUrl = ""
 }

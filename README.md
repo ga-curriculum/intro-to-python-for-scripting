@@ -1,21 +1,22 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to Python</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module we'll explore the fundamentals of Python programming and how it can be used for scripting.
 
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
 | [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| [Getting Started with Python](./getting-started-with-python/README.md) | 15 min | What is Python and how it can be executed.               |
+| [Data Types and Variables](./data-types-and-variables/README.md) | 25 min | Data types and Variables in Python.                |
+| [Operators, Inputs and Outputs](./operators-inputs-and-outputs/README.md) | 25 min | Using Operators, inputs and outputs in Python.                |
+| [Branching and Loops](./branching-and-loops/README.md) | 25 min | Using branching and loops iin Python.              |
+| **Total content**                                   | 90 min |                                     |
 
 ## References
 
@@ -25,32 +26,12 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- Python Setup
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/Intro-to-Python/canvas-landing-pages/itb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/Intro-to-Python/canvas-landing-pages/fallback.html)
 
 ### Resources
 
