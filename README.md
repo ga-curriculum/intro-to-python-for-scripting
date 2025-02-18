@@ -30,8 +30,8 @@ In this module we'll explore the fundamentals of Python programming and how it c
 
 ### Course landing pages
 
-- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/Intro-to-Python/canvas-landing-pages/itb.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/Intro-to-Python/canvas-landing-pages/fallback.html)
+- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-python-for-scripting/canvas-landing-pages/itb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-python-for-scripting/canvas-landing-pages/fallback.html)
 
 ### Resources
 
