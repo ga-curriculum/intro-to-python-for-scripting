@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Intro to Python</span>
+  <span class="headline">Intro to Python for Scripting</span>
   <span class="subhead"> Data Types and Variables in Python</span>
 </h1>
 

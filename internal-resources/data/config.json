@@ -4,8 +4,8 @@
     "name": "modular-curriculum-all-courses"
   },
   "repo": {
-    "friendlyName": "Intro to Python",
-    "name": "Intro to Python",
+    "friendlyName": "Intro to Python for Scripting",
+    "name": "intro-to-python-for-scripting",
     "type": "Lesson",
     "about": "",
     "starterCode": "",

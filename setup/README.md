@@ -1,11 +1,9 @@
 <h1>
-  <span class="headline">Intro to Python</span>
+  <span class="headline">Intro to Python for Scripting</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
-
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
 
 Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
 
@@ -13,11 +11,11 @@ Open your Terminal application and navigate to your <code class="filepath">~/cod
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called <code class="filepath">Intro to Python</code>, then enter this directory:
+Make a new directory called <code class="filepath">intro-to-python-for-scripting</code>, then enter this directory:
 
 ```bash
-mkdir Intro to Python
-cd Intro to Python
+mkdir intro-to-python-for-scripting
+cd intro-to-python-for-scripting
 ```
 
 Open the contents of the directory in VS Code:
@@ -25,5 +23,3 @@ Open the contents of the directory in VS Code:
 ```bash
 code .
 ```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.
