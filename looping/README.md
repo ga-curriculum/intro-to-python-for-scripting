@@ -3,61 +3,21 @@
   <span class="subhead"></span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to understand branching and loops within Python. 
-
-## Branching
-
-Branching allows you to make decisions in your code based on certain conditions. In Python, you can use the `if`, `elif` (else if), and `else` statements to create branching logic. Here's an example:
-
-``` python
-age = 18
-
-if age < 18:
-    print("You are a minor.")
-elif age >= 18 and age < 65:
-    print("You are an adult.")
-else:
-    print("You are a senior.")
-```
-
-In this code, the `if` statement checks if the age is less than 18. If it is, the corresponding block of code is executed, and the message `"You are a minor."` is printed. If the condition is not met, the `elif` statement checks if the age is between 18 and 64 (inclusive). If it is, the message `"You are an adult."` is printed. If none of the previous conditions are met, the `else` block is executed, and the message `"You are a senior."` is printed.
-
-The `if`, `elif`, and `else` statements allow you to create branching paths in your code based on different conditions. You can have multiple `elif` statements to check for various conditions, and the `else` block is executed if none of the conditions are met.
-
-Let's consider an example to solidify our understanding of branching. Imagine you're creating a simple grading system that assigns letter grades based on a student's score. Here's how you could implement it using branching:
-
-``` python
-score = 85
-
-if score >= 90:
-    grade = "A"
-elif score >= 80:
-    grade = "B"
-elif score >= 70:
-    grade = "C"
-elif score >= 60:
-    grade = "D"
-else:
-    grade = "F"
-
-print("Your grade is:", grade)
-```
-
-In this example, the `if` and `elif` statements check the student's score against different thresholds and assign the corresponding letter grade. The else block is used as a catch-all for scores below 60, assigning the grade "F".
-
-Branching is a fundamental concept in programming that allows you to create dynamic and responsive code. It enables you to make decisions and execute different blocks of code based on specific conditions.
+**Learning objective:** By the end of this lesson, students will be able to apply Python's `for`, and `while` statements to implement conditional looping logic in a script.
 
 ## Looping
 
-Looping allows you to repeat a block of code multiple times. Python provides two types of loops: `for` loops and `while`loops.
+Looping allows you to repeat a block of code multiple times. Python provides two types of loops: `for` loops and `while` loops.
 
-### `for` Loop
+### `for` loop
 
 The `for` loop is used to iterate over a sequence (such as a list, tuple, or string) or other iterable objects. It allows you to execute a block of code for each item in the sequence.
 
 Let's look at an example to understand how `for` loops work. Suppose you have a list of fruits and want to print each fruit on a separate line. You can use a `for` loop like this:
 
-``` python
+`intro_to_python.py`
+
+```python
 fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
@@ -68,7 +28,7 @@ In this example, the `for` loop iterates over each element in the `fruits` list.
 
 The output will be:
 
-``` python
+```plaintext
 apple
 banana
 cherry
@@ -78,14 +38,16 @@ The `for` loop automatically handles the iteration for you, allowing you to focu
 
 You can also use the `range()` function in combination with a `for` loop to iterate over a sequence of numbers. For example:
 
-``` python
+`intro_to_python.py`
+
+```python
 for i in range(5):
     print(i)
 ```
 
 In this case, the `range(5)` function generates a sequence of numbers from 0 to 4 (5 is not included), and the `for` loop iterates over each number. The output will be:
 
-``` python
+```plaintext
 0
 1
 2
@@ -95,13 +57,15 @@ In this case, the `range(5)` function generates a sequence of numbers from 0 to 
 
 The `range()` function is commonly used when you need to perform a specific number of iterations or when you need to access the index of each item in a sequence.
 
-### `while` Loop
+### `while` loop
 
 The `while` loop is used to repeatedly execute a block of code as long as a given condition is true. It continues to execute until the condition becomes false.
 
 Here's an example to illustrate the usage of a `while` loop. Let's say you want to print the numbers from 1 to 5 using a `while` loop. You can do it like this:
 
-``` python
+`intro_to_python.py`
+
+```python
 count = 1
 
 while count <= 5:
@@ -113,7 +77,7 @@ In this example, the `while` loop continues to execute as long as the count vari
 
 The output will be:
 
-``` python
+```plaintext
 1
 2
 3
@@ -121,21 +85,23 @@ The output will be:
 5
 ```
 
-The `while` loop is useful when you don't know beforehand how many times you need to iterate, and you want to continue executing a block of code until a certain condition is met.
+The `while` loop is useful when you don't know beforehand how many times you need to iterate, and you want to continue executing a block of code until a certain condition is met. For example, you might want to keep asking a user for input until they provide a valid response.
 
-**Tip** Be cautious when using while loops to avoid infinite loops. Make sure the condition eventually becomes false; otherwise, the loop will continue indefinitely, causing your program to hang.
+> ⚠️ Be cautious when using while loops to avoid infinite loops. Make sure the condition eventually becomes false; otherwise, the loop will continue indefinitely, causing your program to stop responding.
 
-## Loop Control Statements
+## Loop control statements
 
 In addition to the basic loop structures, Python provides control statements that allow you to modify the behavior of loops. Let's explore two commonly used loop control statements: `break` and `continue`.
 
-### `break` Statement
+### `break` statement
 
 The `break` statement is used to prematurely exit a loop. When encountered, it immediately terminates the loop and transfers the control to the next statement after the loop.
 
 Let's consider an example where you want to find the first occurrence of a specific number in a list. You can use a `for` loop with a `break` statement like this:
 
-``` python
+`intro_to_python.py`
+
+```python
 numbers = [1, 3, 5, 7, 9, 2, 4, 6, 8]
 search_number = 7
 
@@ -143,19 +109,24 @@ for number in numbers:
     if number == search_number:
         print(f"Found {search_number} in the list!")
         break
+    else
+        print(f"Found {number}, but it wasn't what we were looking for...")
 ```
 
 In this example, the `for` loop iterates over each number in the numbers list. When the `search_number` (7) is found, the `print()` function is executed, and the `break` statement is encountered. This immediately terminates the loop, and the program continues with the next statement after the loop.
 
 The output will be:
 
-``` python
+```plaintext
+Found 1, but it wasn't what we were looking for...
+Found 3, but it wasn't what we were looking for...
+Found 5, but it wasn't what we were looking for...
 Found 7 in the list!
 ```
 
-The `break` statement is useful when you want to stop the loop execution as soon as a certain condition is met, saving unnecessary iterations.
+Note that there are no more number printed after the `Found 7 in the list!` message because the loop was terminated by the `break` statement. The `break` statement is useful when you want to stop the loop execution as soon as a certain condition is met, saving unnecessary iterations.
 
-### `continue` Statement
+### `continue` statement
 
 The `continue` statement is used to skip the rest of the current iteration and move to the next iteration of the loop.
 
@@ -172,7 +143,7 @@ In this example, the `for` loop iterates over the numbers from 1 to 10 (inclusiv
 
 The output will be:
 
-``` python
+```plaintext
 1
 2
 3
@@ -186,6 +157,16 @@ The output will be:
 
 The `continue` statement is useful when you want to skip specific iterations based on a certain condition without terminating the entire loop.
 
-**Tip** Use loop control statements judiciously to maintain the readability and clarity of your code. Overusing them can make your code harder to understand and debug.
+> 🧠 Use loop control statements judiciously to maintain the readability and clarity of your code. Overusing them can make your code harder to understand and debug.
 
+<div class="activity solo-exercise">
+  <h2 class="title">Are you sure you should go through the traffic signal?</h2>
+  <span class="minutes">5 min</span>
+</div>
 
+Wrap the code you wrote in the previous branching exercise in a `while` loop.
+
+- At the start of the loop, prompt the user to provide a color.
+- If the user enters `green`, `yellow`, or `red` the existing corresponding message should print and the loop should run again.
+- If the user enters `quit`, print out `"Goodbye!"` and exit the loop.
+- If the user enters anything else, nothing should be printed, but the loop should run again.

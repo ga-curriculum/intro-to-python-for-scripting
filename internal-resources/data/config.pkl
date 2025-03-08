@@ -21,26 +21,32 @@ repo {
 courses {
   new {
     // Do not remove this fallback course!
-    name = "fallback"
-    microlessons {
-      // Add microlessons here, in the order they should be delivered
-      mls.setup
-      mls.gettingStartedWithPython
-      mls.dataTypesAndVariables
-      mls.operatorsInputsAndOutputs
-      mls.branchingAndLoops
-    }
-  }
-    new {
-    // Do not remove this fallback course!
     name = "itb"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
-      mls.gettingStartedWithPython
+      mls.concepts
+      mls.commentsAndPrintingToTheConsole
       mls.dataTypesAndVariables
       mls.operatorsInputsAndOutputs
-      mls.branchingAndLoops
+      mls.controlFlowConcepts
+      mls.branching
+      mls.looping
+    }
+  }
+  new {
+    // Do not remove this fallback course!
+    name = "fallback"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.concepts
+      mls.commentsAndPrintingToTheConsole
+      mls.dataTypesAndVariables
+      mls.operatorsInputsAndOutputs
+      mls.controlFlowConcepts
+      mls.branching
+      mls.looping
     }
   }
 }

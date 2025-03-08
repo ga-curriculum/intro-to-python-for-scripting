@@ -14,7 +14,7 @@
   },
   "courses": [
     {
-      "name": "fallback",
+      "name": "itb",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
@@ -30,8 +30,18 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Getting Started with Python",
-          "dirName": "getting-started-with-python",
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Comments and Printing to the Console",
+          "dirName": "comments-and-printing-to-the-console",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -50,7 +60,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Operators, Inputs and Outputs",
+          "friendlyName": "Operators, Inputs, and Outputs",
           "dirName": "operators-inputs-and-outputs",
           "type": "Content",
           "skill": "",
@@ -60,8 +70,28 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Branching and Loops",
-          "dirName": "branching-and-loops",
+          "friendlyName": "Control Flow Concepts",
+          "dirName": "control-flow-concepts",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Branching",
+          "dirName": "branching",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Looping",
+          "dirName": "looping",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -93,7 +123,7 @@
       "isActivityTimeShown": true
     },
     {
-      "name": "itb",
+      "name": "fallback",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
@@ -109,8 +139,18 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Getting Started with Python",
-          "dirName": "getting-started-with-python",
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Comments and Printing to the Console",
+          "dirName": "comments-and-printing-to-the-console",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -129,7 +169,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Operators, Inputs and Outputs",
+          "friendlyName": "Operators, Inputs, and Outputs",
           "dirName": "operators-inputs-and-outputs",
           "type": "Content",
           "skill": "",
@@ -139,8 +179,28 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Branching and Loops",
-          "dirName": "branching-and-loops",
+          "friendlyName": "Control Flow Concepts",
+          "dirName": "control-flow-concepts",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Branching",
+          "dirName": "branching",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Looping",
+          "dirName": "looping",
           "type": "Content",
           "skill": "",
           "learningObjective": "",

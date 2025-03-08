@@ -9,9 +9,16 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-gettingStartedWithPython = new Template.Microlesson {
-  friendlyName = "Getting Started with Python"
-  dirName = "getting-started-with-python"
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+commentsAndPrintingToTheConsole = new Template.Microlesson {
+  friendlyName = "Comments and Printing to the Console"
+  dirName = "comments-and-printing-to-the-console"
   type = "Content"
   videoUrl = ""
 }
@@ -24,15 +31,29 @@ dataTypesAndVariables = new Template.Microlesson {
 }
 
 operatorsInputsAndOutputs = new Template.Microlesson {
-  friendlyName = "Operators, Inputs and Outputs"
+  friendlyName = "Operators, Inputs, and Outputs"
   dirName = "operators-inputs-and-outputs"
   type = "Content"
   videoUrl = ""
 }
 
-branchingAndLoops = new Template.Microlesson {
-  friendlyName = "Branching and Loops"
-  dirName = "branching-and-loops"
+controlFlowConcepts = new Template.Microlesson {
+  friendlyName = "Control Flow Concepts"
+  dirName = "control-flow-concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+branching = new Template.Microlesson {
+  friendlyName = "Branching"
+  dirName = "branching"
+  type = "Content"
+  videoUrl = ""
+}
+
+looping = new Template.Microlesson {
+  friendlyName = "Looping"
+  dirName = "looping"
   type = "Content"
   videoUrl = ""
 }

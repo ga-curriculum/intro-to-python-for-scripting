@@ -3,7 +3,33 @@
   <span class="subhead">Instructor Guide</span>
 </h1>
 
-tktk Information to help instructors deliver this content should be added here. This file should not be removed, even if there is no content to place here immediately, and the following content should be retained regardless of how much content is in this file.
+Below is a potential solution to the exercise in the **Data Types and Variables** microlesson:
+
+Take a moment to work on these exercises and then compare your solutions with the following:
+
+``` python
+# Exercise 1
+favorite_color = "blue"
+print(favorite_color)
+
+# Exercise 2
+num_a = 10
+num_b = 5
+sum = num_a + num_b
+print(sum)
+
+# Exercise 3
+is_raining = False
+print(is_raining)
+
+# Exercise 4
+fruits = ["apple", "banana", "orange"]
+print(fruits)
+
+# Exercise 5
+person = {"name": "Alice", "age": 25, "city": "New York"}
+print(person["name"])
+```
 
 ---
 
