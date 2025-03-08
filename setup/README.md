@@ -24,9 +24,9 @@ Then create an <code class="filepath">intro_to_python.py</code> file with:
 touch intro_to_python.py
 ```
 
-A quick note on convention - you'll note that we're using underscores (`_`) in this filename/directory instead of dashes (`-`). This follows the [PEP style guide](https://peps.python.org/pep-0008/#package-and-module-names) for python modules and packages.
+A quick note on convention - you'll note that we're using underscores (`_`) in this filename/directory instead of dashes (`-`). This follows the [PEP style guide](https://peps.python.org/pep-0008/#package-and-module-names) for Python modules and packages.
 
-It's not required to follow this style guide, but following it means that you have a consistent style across any python code you write. It also means that you have fewer decisions to make about how to best structure your code.
+Following this style guide is not required for our code to run, but following it means that you have a consistent style across any Python code you write. It also means that you have fewer decisions to make about how to best structure your code.
 
 Open the contents of the directory in VS Code:
 

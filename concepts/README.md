@@ -21,24 +21,26 @@ Python's simplicity and versatility have contributed to its widespread adoption 
 
 ## Why use Python?
 
-There are many reasons for learning an using Python:
+There are many reasons for learning and using Python:
 
 - **Versatility and flexibility**: Python's use cases span different domains, making it a valuable tool for anyone to have in their toolkit.
-- **Ease of learning and readability**: Python's syntax is designed to be intuitive, lowering the barrier to entry for beginners. It often uses English keywords where other languages use punctuation or symbols, making it easier to read and understand.
+- **Ease of learning and readability**: Python's syntax is designed to be intuitive, lowering the barrier to entry for beginners. It often uses English keywords, whereas many other languages use punctuation or symbols, making it easier to read and understand.
 - **Cross-platform compatibility**: It runs on various systems without significant modifications, facilitating widespread use.
 - **Continuous development**: Python is an open-source language with a vibrant community and ecosystem. It receives regular updates and improvements, adding new functionality and keeping it relevant as technology trends evolve.
-- **Community**: They Python community is known for its inclusivity, diversity, and supportive nature. Events like PyCon, local Python user groups, and online communities foster a sense of belonging and provide opportunities for networking and knowledge sharing. Python's popularity and community support make it an excellent choice for both beginners and experienced developers. You'll never feel alone on your Python journey, as there's always someone willing to lend a helping hand.
+- **Community**: The Python community is known for its inclusivity, diversity, and supportive nature. Events like PyCon, local Python user groups, and online communities foster a sense of belonging and provide opportunities for networking and knowledge sharing.
+
+  Python's popularity and community support make it an excellent choice for beginners and experienced developers. You'll never feel alone on your Python journey, as there's always someone willing to lend a helping hand.
 - **Robust community and libraries**: With an extensive standard library (functionality built into the language) and third-party and third-party modules on the [Python Package Index (PyPI)](https://pypi.org/) for nearly every task imaginable, Python's ecosystem is rich and supportive.
 
 These aspects, coupled with the increasing demand for automation, data analysis, and web development skills, make Python a highly sought-after skill in the job market. The growth of its community and the expansion of its applications continue to open new job opportunities.
 
 ## Getting Started with Python
 
-Now that we have a better understanding of what Python is and why it's so popular, let's dive into the practical aspects of getting started with Python.
+Now that we better understand what Python is and why it's so popular let's dive into the practical aspects of getting started with Python.
 
 ### Checking Python Installation
 
-You should already have python installed on your system - you can check this by running the following command in your terminal:
+You should already have Python installed on your system - you can check this by running the following command in your terminal:
 
 ```bash
 python3 --version
@@ -52,7 +54,7 @@ Python 3.13.1
 
 ### Running Python code
 
-Python provides two primary ways to run code: through the interactive shell and by executing Python scripts.
+Python provides two primary ways to run code: through the interactive shell and executing Python scripts.
 
 1. **Interactive shell**
 
@@ -60,7 +62,7 @@ Python provides two primary ways to run code: through the interactive shell and 
 
    In the interactive shell, you can type Python statements and expressions, and the interpreter will execute them immediately. This is useful for testing small code snippets, exploring Python features, and quickly prototyping ideas.
 
-   To exit the interactive shell, you can type `quit()` or press <kbd>Ctrl<kbd> + <kbd>D<kbd>.
+   Type `quit()` or press <kbd>Ctrl</kbd> + <kbd>D</kbd> to exit the interactive shell.
 
 2. **Python scripts**
 
@@ -72,4 +74,4 @@ Python provides two primary ways to run code: through the interactive shell and 
    python3 intro_to_python.py
    ```
 
-   Python will execute the code in the script from top to bottom, and any output or results will be displayed in the terminal. Right now this script is empty so you won't see any output, but we'll be resolve that soon enough!
+   Python will execute the code in the script from top to bottom, and any output or results will be displayed in the terminal. This script is empty now, so you won't see any output, but we'll resolve that soon enough!

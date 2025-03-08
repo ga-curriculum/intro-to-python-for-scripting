@@ -3,7 +3,7 @@
   <span class="subhead">Branching</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to apply Python's `if`, `elif` and `else` statements to implement conditional logic in a script.
+**Learning objective:** By the end of this lesson, students will be able to apply Python's `if`, `elif`, and `else` statements to implement conditional logic in a script.
 
 ## Branching
 
@@ -25,9 +25,9 @@ if age < 18:
     print("You are a minor.")
 ```
 
-Note the colon `:` at the end of the `if` statement. This indicates that the following indented block of code is part of the `if` statement. The indentation is important in Python, as it defines the scope of the code block.
+Note the colon `:` at the end of the `if` statement. This indicates that the following indented block of code is part of the `if` statement. The indentation is significant in Python, as it defines the scope of the code block.
 
-If you execute this code it won't print anything because the condition is not met. If you change the value of `age` to a number less than 18, it will print `"You are a minor."`.
+If you execute this code, it won't print anything because the condition has not been met. If you change the value of `age` to a number less than 18, it will print `"You are a minor."`.
 
 ### `if...else`
 
@@ -101,9 +101,9 @@ Branching is a fundamental concept in programming that allows you to create dyna
   <span class="minutes">5 min</span>
 </div>
 
-First, create a variable named `color`, and give it a value of your choice.
+First, create a variable named `color` and give it a value of your choice.
 
-Then, write a branching statement that prints the following based upon the value of `color`:
+Then, write a branching statement that prints the following based on the value of `color`:
 
 - If the value of `color` is `"green"`, print `"Go"`.
 - If the value of `color` is `"yellow"`, print `"Slow"`.

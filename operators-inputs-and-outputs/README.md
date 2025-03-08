@@ -3,7 +3,7 @@
   <span class="subhead">Input, Output, and </span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will understand how python handles operators, as well as user input and output.
+**Learning objective:** By the end of this lesson, students will understand how Python handles operators, and user input and output.
 
 ## User input and output
 
@@ -11,7 +11,7 @@ Python provides built-in functions to display output and interact with the user.
 
 ### Output
 
-We've already seen that Python provides the `print()` function to display output. The `print()` function can be used to take multiple arguments, which will be printed in the order they are provided. For example:
+We've already seen that Python provides the `print()` function to display output. The `print()` function can take multiple arguments, which will be printed in the order you provide them. For example:
 
 `intro_to_python.py`
 
@@ -19,7 +19,7 @@ We've already seen that Python provides the `print()` function to display output
 print("The sum of 2 and 3 is", 2 + 3)
 ```
 
-In the first line, the `print()` function displays a message along with the result of the expression `2 + 3`.
+In the first line, the `print()` function displays a message and the result of the expression `2 + 3`.
 
 You can also use string formatting to create more complex output. For example, you can use f-strings to embed variables or expressions within a string:
 
@@ -28,13 +28,13 @@ You can also use string formatting to create more complex output. For example, y
 ```python
 name = "Alice"
 age = 25
-print(f"My name is {name} and I am {age} years old.")
-# Prints: "My name is Alice and I am 25 years old."
+print(f"My name is {name}, and I am {age} years old.")
+# Prints: "My name is Alice, and I am 25 years old."
 ```
 
 ### User input
 
-To get input from the user, you can use the `input()` function. It prompts the user to enter a value and returns it as a string. For example:
+You can use the `input()` function to get input from the user. It prompts the user to enter a value and returns it as a string. For example:
 
 `intro_to_python.py`
 
@@ -44,7 +44,7 @@ print("Hello,", name)
 # Prints: "Hello, Aya" (if the user enters Aya)
 ```
 
-In this code, the `input()` function prompts the user to enter their name, and the entered value is stored in the name variable. The `print()` function is then used to display a greeting message along with the user's name.
+In this code, the `input()` function prompts the user to enter their name, and the entered value is stored in the name variable. The `print()` function is then used to display a greeting message and the user's name.
 
 You can convert the user's input to a different data type if needed. For example, to convert the input to an integer, you can use the `int()` function:
 

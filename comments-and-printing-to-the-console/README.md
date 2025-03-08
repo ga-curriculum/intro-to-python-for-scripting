@@ -3,11 +3,11 @@
   <span class="subhead">Comments and Printing to the Console</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to contribute comments to python code and print output to the console.
+**Learning objective:** By the end of this lesson, students will be able to contribute comments to Python code and print output to the console.
 
 ## Printing to the console
 
-In Python we use the `print()` function to print a message to the console:
+In Python, we use the `print()` function to print a message to the console:
 
 `intro_to_python.py`
 
@@ -27,7 +27,7 @@ You should see the output `Hello, world!` in your terminal.
 
 ## Comments
 
-Comments are an important part of scripting. They allow you to add notes and explanations to your code, making it easier to understand for yourself and others. These comments are ignored by the Python interpreter, so they don't affect the execution of your code.
+Comments are an important part of scripting. They allow you to add notes and explanations to your code so that you and others can better understand it when you refer back to it later. The Python interpreter ignores these comments, so they don't affect the execution of your code.
 
 In Python, comments are created using the `#` symbol. Everything after the `#` on that line is considered a comment and will be ignored by the interpreter. Add an explanation to the print statement in your `intro_to_python.py` file:
 
@@ -38,4 +38,4 @@ In Python, comments are created using the `#` symbol. Everything after the `#` o
 print("Hello, world!")
 ```
 
-Typically, comments are used to explain the purpose of a block of code or to provide additional context. Code like `print("Hello, world!")` is self-explanatory, so it typically wouldn't need a comment, we're just using it as an example here.
+Typically, comments are used to explain the purpose of a block of code or to provide additional context. Code like `print("Hello, world!")` is self-explanatory, so it typically wouldn't need a comment; we're just using it as an example here.

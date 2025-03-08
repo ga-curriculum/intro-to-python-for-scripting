@@ -3,7 +3,7 @@
   <span class="subhead"></span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to apply Python's `for`, and `while` statements to implement conditional looping logic in a script.
+**Learning objective:** By the end of this lesson, students will be able to apply Python's `for` and `while` statements to implement conditional looping logic in a script.
 
 ## Looping
 
@@ -11,7 +11,7 @@ Looping allows you to repeat a block of code multiple times. Python provides two
 
 ### `for` loop
 
-The `for` loop is used to iterate over a sequence (such as a list, tuple, or string) or other iterable objects. It allows you to execute a block of code for each item in the sequence.
+The `for` loop iterates over a sequence (such as a list, tuple, or string) or other iterable objects. It allows you to execute a block of code for each item in the sequence.
 
 Let's look at an example to understand how `for` loops work. Suppose you have a list of fruits and want to print each fruit on a separate line. You can use a `for` loop like this:
 
@@ -24,7 +24,7 @@ for fruit in fruits:
     print(fruit)
 ```
 
-In this example, the `for` loop iterates over each element in the `fruits` list. On each iteration, the current fruit is assigned to the variable `fruit`, and the `print()` function is used to display its value.
+In this example, the `for` loop iterates over each element in the `fruits` list. On each iteration, the current fruit is assigned to the variable `fruit`, and the `print()` function displays its value.
 
 The output will be:
 
@@ -85,9 +85,9 @@ The output will be:
 5
 ```
 
-The `while` loop is useful when you don't know beforehand how many times you need to iterate, and you want to continue executing a block of code until a certain condition is met. For example, you might want to keep asking a user for input until they provide a valid response.
+The `while` loop is useful when you don't know beforehand how many times you need to iterate and want to continue executing a block of code until a specific condition is met. For example, you might want to keep asking a user for input until they provide a valid response.
 
-> ⚠️ Be cautious when using while loops to avoid infinite loops. Make sure the condition eventually becomes false; otherwise, the loop will continue indefinitely, causing your program to stop responding.
+> ⚠️ Be cautious when using while loops to avoid infinite loops. Ensure the condition eventually becomes false; otherwise, the loop will continue indefinitely, causing your program to stop responding.
 
 ## Loop control statements
 
@@ -95,7 +95,7 @@ In addition to the basic loop structures, Python provides control statements tha
 
 ### `break` statement
 
-The `break` statement is used to prematurely exit a loop. When encountered, it immediately terminates the loop and transfers the control to the next statement after the loop.
+The `break` statement is used to exit a loop prematurely. When encountered, it immediately terminates the loop and transfers the control to the next statement after the loop.
 
 Let's consider an example where you want to find the first occurrence of a specific number in a list. You can use a `for` loop with a `break` statement like this:
 
@@ -124,13 +124,13 @@ Found 5, but it wasn't what we were looking for...
 Found 7 in the list!
 ```
 
-Note that there are no more number printed after the `Found 7 in the list!` message because the loop was terminated by the `break` statement. The `break` statement is useful when you want to stop the loop execution as soon as a certain condition is met, saving unnecessary iterations.
+Note that no more numbers are printed after the `Found 7 in the list!` message because the `break` statement terminated the loop. The `break` statement is useful when you want to stop the loop execution when a specific condition is met, saving unnecessary iterations.
 
 ### `continue` statement
 
 The `continue` statement is used to skip the rest of the current iteration and move to the next iteration of the loop.
 
-Let's say you want to print all the numbers from 1 to 10, except for the number 5. You can use a `for` loop with a `continue` statement like this:
+Let's say you want to print all the numbers from 1 to 10 except for the number 5. You can use a `for` loop with a `continue` statement like this:
 
 ``` python
 for i in range(1, 11):
@@ -167,6 +167,6 @@ The `continue` statement is useful when you want to skip specific iterations bas
 Wrap the code you wrote in the previous branching exercise in a `while` loop.
 
 - At the start of the loop, prompt the user to provide a color.
-- If the user enters `green`, `yellow`, or `red` the existing corresponding message should print and the loop should run again.
-- If the user enters `quit`, print out `"Goodbye!"` and exit the loop.
-- If the user enters anything else, nothing should be printed, but the loop should run again.
+- If the user enters `green`, `yellow`, or `red`, the existing corresponding message should print, and the loop should run again.
+- If the user enters `quit`, print `"Goodbye!"` and exit the loop.
+- Nothing should be printed if the user enters anything else, but the loop should run again.
